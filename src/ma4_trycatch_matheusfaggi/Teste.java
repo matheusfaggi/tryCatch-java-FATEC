@@ -87,7 +87,7 @@ public class Teste {
     }
     
     private void setOption(int option) throws TesteExceptions {
-        if(option < 1 || option > 2)
+        if(option < 1 || option > 3)
             throw new TesteExceptions("Opção inválida\n\n");
         
         this.option = option;
