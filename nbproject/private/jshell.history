@@ -1,0 +1,12 @@
+EXPRESSION#>ls
+EXPRESSION#>cmsd
+EXPRESSION#>cmd
+EXPRESSION#>help
+VAR#>int x = 0 ;
+VAR#>Contato x = new Contato(new Agenda a, "matheus","1213123");
+VAR#>Contato x = new Contato(Agenda a = new Agenda(), "matheus","1213123");
+VAR#>Agenda a = new Agenda();
+IMPORT#>import ma4_trycatch_matheusfaggi.Agenda;\
+	Agenda x = new Agenda();
+IMPORT#>import ma4_trycatch_matheusfaggi.Teste
+STATEMENT#>new Teste().runTests();
